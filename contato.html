@@ -7,33 +7,62 @@
     <title>Contato</title>
 </head>
 <body>
-    <fieldset><br>
+    <fieldset>
+        <br>
         <legend>Entre em contato</legend>
-        <label for="assunto_id">
+
+        <label>
             <b>Assunto:</b>
-            <select name="assunto" id="assunto_id">
+            <select name="assunto">
                 <option value="1">Suporte</option>
                 <option value="2">Manutenção</option>
             </select><br><br>
             <br>
         </label>
-        <label for="nome_completo"><b>Nome Completo:</b></label>
+
+        <label for="nome_completo">
+            <b>Nome Completo:</b>
+        </label>
         <br>
-        <input type="email"><br><br><br>
-        <label for="email"></label><b>E-mail:</b>
+        <input 
+            type="test" 
+            id="nome_completo" 
+            name="noome_completo"
+            placeholder="William Silva"
+        />
+        <br><br><br>
+
+        <label for="email">
+            <b>E-mail:</b>
+        </label>
         <br>
-        <input type="email">
+        <input 
+            type="email" 
+            id="email"
+            name="email"
+            placeholder="Tintilho@yahoo.com.br"
+        />
+        <br><br><br>
+        
+        <label for="mensagem">
+            <b>Mensagem:</b>
+        </label>
         <br>
+        <textarea
+            name="mensagem"  
+            id="mensagem" 
+            cols="30" 
+            rows="10"
+            placeholder="Digite aqui sua mensagem!"></textarea>
+        <br><br><br>
+
+        <label>
+            <input type="checkbox" id="scale"checkbox /> Aceito receber novidade por E-mail     
+        </label>
         <br><br>
-        <label for="assunto"></label><b>Mensagem:</b>
-        <br>
-        <input type="mensagem"><br>
-        <br>
-                <br><br>
-                <input type="checkbox" id="scale"checkbox>Aceito receber novidade por e-mail<br><br>
-                <button type="button" value="enviar"/>         
         
-        
+        <button type="button">Enviar</button>         
+                
     </fieldset>                                                                                                                                                                                                               
 </body>
 </html>
